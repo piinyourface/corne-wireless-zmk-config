@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5     &kp N6     &kp N7        &kp N8          &kp N9     &kp N0  &kp BSPC
-&none      &none   &none   &none     &none   &none      &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans     &trans     &trans        &trans          &trans     &trans  &trans
-                           &kp LGUI  &trans  &kp RET    &kp SPACE  &trans        &kp RALT
+&kp TAB    &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F4 NUMBER_4  &mt F5 NUMBER_5    &mt F6 N6  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 N9        &mt F10 N0  &kp BSPC
+&none      &none            &none            &none            &none            &none              &kp HOME   &kp PAGE_UP      &kp UP_ARROW     &kp PAGE_DOWN    &trans      &kp DEL
+&kp LSHFT  &trans           &trans           &trans           &trans           &trans             &kp END    &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans      &trans
+                                             &kp LGUI         &trans           &kp RET            &kp SPACE  &trans           &kp RALT
             >;
         };
 
@@ -62,9 +62,9 @@
 
         Other {
             bindings = <
-&mt TAB ESCAPE  &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &trans  &trans  &bt BT_CLR
+&mt TAB ESCAPE  &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans  &trans  &bt BT_CLR
                                 &trans  &trans  &trans    &trans        &trans        &trans
             >;
         };
